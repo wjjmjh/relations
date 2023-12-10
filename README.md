@@ -14,3 +14,9 @@ docker run \
 ```
 
 ^^ with username: `neo4j` and password: `neo4j-password`
+
+### If you doubt it, dockerize it!
+
+```
+docker build -t relations:latest . 
+```
